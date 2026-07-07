@@ -1,0 +1,16 @@
+{
+  "model_version": "v2",
+  "threshold": 0.7,
+  "features": [
+    "amount",
+    "is_international",
+    "distance_km",
+    "device_trust",
+    "prev_chargeback",
+    "merchant_risk",
+    "user_tx_count_1h",
+    "user_amount_sum_1h",
+    "user_unique_merchants_24h",
+    "merchant_tx_count_1h"
+  ]
+}

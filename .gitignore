@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.db
+.env
+.env.*
+.ipynb_checkpoints/
+*.db
+*.db-shm
+*.db-wal
