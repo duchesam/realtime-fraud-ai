@@ -51,12 +51,12 @@ Streamlit Dashboard
     |
     v
 Fraud & Latency Monitoring
+```
 
 ## Project Structure
 
-```
+```text
 realtime-fraud-ai/
-│
 ├── models/
 ├── src/
 │   ├── api.py
@@ -64,11 +64,22 @@ realtime-fraud-ai/
 │   ├── producer.py
 │   ├── train.py
 │   └── features.py
-│
 ├── requirements.txt
 └── README.md
 ```
 
+## Dashboard
+
+Interactive dashboard showing:
+
+- Fraud Rate
+- Latency Distribution
+- Prediction Score Distribution
+- Real-Time Monitoring
+
+## Dashboard Preview
+
+![Real-Time Fraud Monitoring Dashboard](fraud-monitoring-dashboard.png)
 ## Dashboard
 
 Interactive dashboard showing:
