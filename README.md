@@ -22,6 +22,36 @@ A real-time fraud detection system built with **Python**, **FastAPI**, **Streaml
 - Pandas
 - NumPy
 
+## System Architecture
+
+The platform simulates a real-time fraud detection pipeline where transactions are processed through a REST API, transformed into model features, scored by a machine learning model, stored for analysis, and visualized through an interactive monitoring dashboard.
+
+```text
+Transaction
+    |
+    v
+FastAPI REST API
+    |
+    v
+Feature Processing
+    |
+    v
+Machine Learning Model
+    |
+    v
+Fraud Risk Score
+    |
+    +-------------------+
+    |                   |
+    v                   v
+SQLite Storage     API Response
+    |
+    v
+Streamlit Dashboard
+    |
+    v
+Fraud & Latency Monitoring
+
 ## Project Structure
 
 ```
