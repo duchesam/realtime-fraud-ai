@@ -47,6 +47,10 @@ Interactive dashboard showing:
 - Latency Distribution
 - Prediction Score Distribution
 - Real-Time Monitoring
+  
+## Dashboard Preview
+
+![Real-Time Fraud Monitoring Dashboard](fraud-monitoring-dashboard.png)
 
 ## Installation
 
